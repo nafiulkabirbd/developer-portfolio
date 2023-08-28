@@ -195,15 +195,72 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+    margin-bottom: 130px;
 }
-
-/* .skill-img {
-    margin-bottom: 30px;
-} */
 
 .skill-title {
     margin-top: 30px;
     padding-bottom: 20px;
 }
 
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 /* skill related style end */
+
+/* resume related style start */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: flex;
+    padding-top: 113px;
+    gap: 71px;
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    color: #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume-item-description {
+    max-width: 511px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.btn-resume {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 113px;
+}
+
+/* resume related style end */
