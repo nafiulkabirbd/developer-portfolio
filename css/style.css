@@ -23,6 +23,20 @@ body {
     padding: 15px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* common share style end */
 
 /* header related style start */
@@ -115,3 +129,45 @@ nav a {
 }
 
 /* banner related style end */
+
+/* main related style start */
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* main related style end */
+
+/* about related style start */
+
+.about {
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* about related style end */
