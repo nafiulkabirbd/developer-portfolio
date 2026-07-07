@@ -1,8 +1,13 @@
+/* reset style start */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* common style start */
@@ -18,6 +23,17 @@
   font-size: 20px;
   font-weight: 700;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: #fd6e0a;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #fd6e0a;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -57,3 +73,42 @@ ul li a {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* hero style start */
+.banner-section {
+  background-color: #fff8f3;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 47px;
+}
+
+.banner__subtitle {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.banner__title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+
+.banner__description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.banner__buttons {
+  display: flex;
+  gap: 30px;
+}
+
