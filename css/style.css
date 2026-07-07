@@ -112,3 +112,46 @@ ul li a {
   gap: 30px;
 }
 
+/* about style start */
+.about-section {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 157px;
+}
+
+.about__title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.about__description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__container p {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card__container h3 {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
